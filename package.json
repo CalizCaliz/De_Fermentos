@@ -1,0 +1,23 @@
+{
+  "name": "calizproject",
+  "version": "1.0.0",
+  "description": "herramientashtmlycss",
+  "main": "index.js",
+  "scripts": {
+    "dev": "parcel src/index.html",
+    "build": "parcel build src/index.html"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "project": "^0.1.6"
+  },
+  "devDependencies": {
+    "autoprefixer": "^9.8.6",
+    "parcel-bundler": "^1.12.3"
+  }
+}
