@@ -13,7 +13,8 @@ main {width: 75%;margin: 0 auto; text-align: justify;}
 .h2 a{color:black; text-decoration: none;}
 .imagen, .imagen_vertical {display: inline-block;}
 .imagen img{height: 300px;width: 50%;float: right;margin-left: 30px;margin-top: 20px;margin-bottom: 20px;}
-.texto {left: 30px;bottom: 20px;color: black;text-shadow: 0 1px 0 black;font-family: 'Playfair Display', serif;font-size: 20px;}
+.texto {left: 30px;bottom: 20px;color: black;text-shadow: 0 1px 0 black;font-family: 'Playfair Display', serif;font-size: 20px;margin-top: 30px;font-weight: 400;}
+.cita {font-style: italic;}
 .boton {font-size: 18px;font-weight:700;background:rgb(205, 195, 191);padding: 10px 50px;border-radius: 5px;color:black; text-decoration: none;margin-top: 30px;display: inline-block;text-transform: uppercase}
 .text-center {text-align: center;width: 100%;}
 footer {background: black;width: 100%;padding: 10px;color:white;text-align: center;margin-top: 40px;}
