@@ -5,7 +5,10 @@
   "main": "index.js",
   "scripts": {
     "dev": "parcel src/index.html",
-    "build": "parcel build src/index.html"
+    "build": "parcel build src/index.html",
+    "parcel: dev": "npm-run-all clean parcel:dev",
+    "parcel: build": "npm-run-all clean parcel:build",
+    "clean": "rimraf dist .cache .cache-loader"
   },
   "repository": {
     "type": "git",
@@ -14,12 +17,13 @@
   "author": "Cáliz Aragonés",
   "license": "ISC",
   "dependencies": {
-    "project": "^0.1.6"
+  "project": "^0.1.6"
   },
   "devDependencies": {
     "autoprefixer": "^9.8.6",
     "npm-run-all": "^4.1.5",
     "parcel-bundler": "^1.12.3",
+    "parcel-plugin-imagemin": "^4.0.2",
     "rimraf": "^3.0.2"
   }
 }
