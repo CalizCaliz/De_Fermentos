@@ -118,10 +118,11 @@ footer ul li a {vertical-align: middle;color:white;text-transform: uppercase;fon
     }
     nav ul {
         padding-left: 0;
+        margin-top: 5px;
     }
     nav ul li a {
         padding: 0 2px;
-        font-size: 28px;
+        font-size: 20px;
     }
     .imagen img {
         height: auto;
@@ -133,15 +134,27 @@ footer ul li a {vertical-align: middle;color:white;text-transform: uppercase;fon
     .mb-xs-40{
         margin-bottom: 40px;
     }
-
+    .instagram {
+        width: 100%;
+    }
+    .instagram .object-fit {
+        width: 100%;
+    }
+    .logo img {
+        height: 40px;
+        width: 40px;
+        margin-left: 5px;
+        margin-top: 12px;
+    }
+    .svg-boton {
+        display: block;
+    }
   }
 
 @media (min-width:834px) {
     .banner h1 {top: 50px;font-size: 100px;}
     nav ul li a {padding: 0 40px;}
     .logo img{margin-left: 10px;}
-    
-    
 }
 @media (min-width:1024px) {
     .banner h1 {top: 25px;font-size: 100px;}
@@ -156,10 +169,6 @@ footer ul li a {vertical-align: middle;color:white;text-transform: uppercase;fon
     .row .col-3 {width: 35%}
     
 }
-
-
-
-
 
 
 /*Animation*/
