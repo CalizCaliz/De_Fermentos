@@ -38,12 +38,12 @@ main {margin: 0 auto; text-align: justify;}
 nav {height: 70px;width: 100%;margin: 0 auto; background:#D5E2F2;font-size: 20px;position: absolute;}
 nav ul {padding-top: 15px;margin-top:0px;position: center;text-align: center;}
 nav ul li {vertical-align:middle;display: inline;font-family: Amatic SC, cursive;font-size: 30px;}
-nav ul li a {vertical-align: middle;color:#733E10;text-transform: uppercase;font-weight: 700;font-style: bold;text-decoration: none;padding: 0 10px;}
+nav ul li a {vertical-align: middle;color:#733E10;text-transform: uppercase;font-weight: 700;font-style: bold;text-decoration: none;padding: 0 30px;}
 
 /* Multimedia */
 .banner {height: 450px;width: 100%;margin: 0 auto;position: relative;}
-.banner h1 {position:absolute;width:100%;left: 0;top: 10%;color:#D5E2F2;text-shadow: 1px 2px 4px black;font-size: 100px;font-family: Amatic SC, cursive;text-align: center;}
-.banner br {position: absolute;left: 450px;color:#D5E2F2;text-shadow: 1px 2px 4px black;font-size: 30px;font-family: Amatic SC, cursive;}
+.banner h1 {position:absolute;width:100%;left: 0;top: 10%;color:#D5E2F2;text-shadow: 1px 2px 4px black;font-size: 70px;font-family: Amatic SC, cursive;text-align: center;}
+.banner br {position: absolute;left: 450px;color:#D5E2F2;text-shadow: 1px 2px 4px black;font-size: 10px;font-family: Amatic SC, cursive;}
 .banner img{height: 450px;width: 100%;object-fit: cover;}
 .object-banner-fermentos img{object-position: center 90%;}
 .object-banner-procesos img{object-position: center top;}
@@ -89,7 +89,7 @@ nav ul li a {vertical-align: middle;color:#733E10;text-transform: uppercase;font
 .h3 {text-align: center;color:#733E10;font-family: Amatic SC, cursive;font-size: 50px;font-style: bold;margin-top: 30px;}
 .texto {top: 40px;bottom: 300px;color:#8C8377;font-family: Courier Prime;text-align: center;font-size: 20px;margin-top: 20px;font-weight: 400;line-height: 1.7;}
 .texto1 {color:white; font-family: Courier Prime;font-size: 30px; padding-top: 60px;}
-.texto2 {color:white; font-family: Courier Prime;font-size: 20px;line-height: 40px;}
+.texto2 {color:white; font-family: Courier Prime;font-size: 20px;line-height: 40px;text-decoration: none;}
 .texto3 {text-align:center;margin-top: 150px;color:white;font-family: Courier Prime;font-size: 28px;padding-top: 40PX;}
 .texto4 {text-align:center;margin-top: 150px;color:white;font-family: Courier Prime;font-size: 16px;margin-top: 10px;text-decoration: none;line-height: 1px;font-style: normal;}
 .parrafo {text-align:justify;margin-top: 0;color:#8C8377;font-family: Courier Prime;font-size: 18px;text-decoration: none;font-style: normal;line-height: 1.7;}
@@ -106,7 +106,7 @@ footer {background:#8C8377;height:150px;width: 100%;color:white;text-align: cent
 footer .m-t-50{margin-top: 50px}
 footer ul {padding-top: 15px;padding-bottom:20px;margin-top:0px;position: center;text-align: center;}
 footer ul li {vertical-align:middle;display: inline;font-family: Amatic SC, cursive;font-size: 24px;}
-footer ul li a {vertical-align: middle;color:white;text-transform: uppercase;font-weight: 700;font-style: bold;text-decoration: none;padding: 0 20px;}
+footer ul li a {vertical-align: middle;color:white;text-transform: uppercase;font-weight: 700;font-style: bold;text-decoration: none;padding:0 10px;}
 
 /* Media queries */
 .d-xs-show{
@@ -117,12 +117,14 @@ footer ul li a {vertical-align: middle;color:white;text-transform: uppercase;fon
         width: 100% !important;
     }
     nav ul {
-        padding-left: 0;
+        padding: 2px;
         margin-top: 5px;
+        margin-left: 0px;
     }
     nav ul li a {
-        padding: 0 2px;
+        padding:0 0px;
         font-size: 20px;
+        margin-left: 40px;
     }
     .imagen img {
         height: auto;
@@ -143,7 +145,7 @@ footer ul li a {vertical-align: middle;color:white;text-transform: uppercase;fon
     .logo img {
         height: 40px;
         width: 40px;
-        margin-left: 5px;
+        margin-left: 10px;
         margin-top: 12px;
     }
     .svg-boton {
@@ -153,11 +155,13 @@ footer ul li a {vertical-align: middle;color:white;text-transform: uppercase;fon
 
 @media (min-width:834px) {
     .banner h1 {top: 50px;font-size: 100px;}
+    .banner br {top: 50px;font-size: 100px;}
     nav ul li a {padding: 0 40px;}
-    .logo img{margin-left: 10px;}
+    .logo img{margin-left: 40px;}
 }
 @media (min-width:1024px) {
     .banner h1 {top: 25px;font-size: 100px;}
+    .banner br {top: 25px;font-size: 100px;}
     nav ul li a {padding: 0 50px;}
     .logo img{margin-left: 60px;}
     .row .col-3 {width: 40%}
@@ -165,7 +169,9 @@ footer ul li a {vertical-align: middle;color:white;text-transform: uppercase;fon
 }
 @media (min-width:1280px) {
     .banner h1 {top: 10px;font-size: 100px;}
+    .banner br {top: 10px;font-size: 100px;}
     nav ul li a {padding: 0 80px;}
+    .logo img {margin-left: 50px;}
     .row .col-3 {width: 35%}
     
 }
